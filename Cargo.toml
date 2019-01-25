@@ -1,0 +1,9 @@
+[package]
+name = "git-branch-cleanup"
+version = "0.1.0"
+authors = ["Martin Martinez Rivera <martinmr@dgraph.io>"]
+edition = "2018"
+
+[dependencies]
+git2 = "0.7"
+clap = {version = "2.32", features = ["yaml"]}

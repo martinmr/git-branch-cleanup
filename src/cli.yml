@@ -1,0 +1,14 @@
+name: git-branch-cleanup
+version: "1.0"
+author: Martin Martinez Rivera <martinmr@alum.mit.edu>
+about: Utility to clean up local repo from all branches deleted in remote.
+args:
+    - dry-run:
+        short: d
+        long: dry-run
+        help: Does not delete any branch but simply prints those which would be deleted.
+    - force:
+        short: f
+        long: force
+        help: Force branch deletion without asking. 
+        conflicts_with: dry-run
