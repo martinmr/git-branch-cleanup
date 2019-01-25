@@ -14,6 +14,8 @@ git remote update --prune <remote>
 git-branch-cleanup
 ```
 
+By default you are prompted to delete each branch. If you want to avoid the prompts, use the ```-f``` flag.
+
 ## TODO
 
 * Add support for pruning so that running ```git remote``` beforehand is not necessary.
